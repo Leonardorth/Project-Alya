@@ -203,8 +203,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 32928bdf297768b479691dcf709f1083, type: 3}
-  m_Position: {x: 0.000090280555, y: -0.042154014, z: -0.3166568}
-  m_EulerAngles: {x: 2.272, y: 0.059000004, z: -0.033}
+  m_Position: {x: 0.0002151892, y: 0.14014557, z: -0.30942902}
+  m_EulerAngles: {x: 2.272, y: 0.072000004, z: -0.036000002}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: e1746f70900326544bbc192943dfb695, type: 3}
-  m_Position: {x: 3.8011194e-10, y: -0.017278412, z: -0.0000016657749}
+  m_Position: {x: -0.000000010341751, y: 0.16255309, z: -0.0037917383}
   m_EulerAngles: {x: -1.207, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
@@ -782,49 +782,13 @@ MonoBehaviour:
     m_BlendOutDuration: 1.5166666666666657
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -851,25 +815,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -991,7 +937,7 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: 29254aece672c234a9e3d1189c1c5282, type: 3}
-  m_Position: {x: 0.0024605342, y: 0.1277208, z: -0.39848468}
+  m_Position: {x: 0.0029788811, y: 0.24304783, z: -0.40278646}
   m_EulerAngles: {x: -2.14, y: 0.23500001, z: -0.266}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
@@ -1013,7 +959,7 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: af0e79c22efa2684fb85c12ada941333, type: 3}
-  m_Position: {x: 0.0027870724, y: 0.06828022, z: -0.3239746}
+  m_Position: {x: 0.0027866182, y: 0.22987342, z: -0.3239746}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
