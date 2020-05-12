@@ -391,11 +391,11 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: -203655887218126122, guid: e1746f70900326544bbc192943dfb695, type: 3}
-  m_Position: {x: -0.000000010341751, y: 0.16255309, z: -0.0037917383}
-  m_EulerAngles: {x: -1.207, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
+  m_Position: {x: -0.0009711321, y: -0.77178675, z: 0.016262474}
+  m_EulerAngles: {x: -1.207, y: 0, z: -0.034}
+  m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
-  m_RemoveStartOffset: 1
+  m_RemoveStartOffset: 0
   m_ApplyFootIK: 0
   m_Loop: 0
   m_Version: 1
