@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scene.unity
     guid: 0f8df8e0b33b6bb48b4c94b9a0e62f50
   - enabled: 1
-    path: Assets/Scenes/1st level.unity
-    guid: cf68a5ac934b0d64b84d679130b287a5
+    path: Assets/Scenes/1st outdoor level.unity
+    guid: 280514d4cdcee5f438d505dd1b1ffeaf
   m_configObjects: {}
