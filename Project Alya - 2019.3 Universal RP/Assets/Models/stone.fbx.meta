@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17ebe24db0bd25649a59666a596d09ae
+guid: 755056c9158c5ed4bab368b50abde2e4
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
@@ -7,28 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: grass_mat
-    second: {fileID: 2100000, guid: 2eb7075a256dcc34080c9ef9cd6bcc53, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: low_poly_grass2
-    second: {fileID: 2800000, guid: 79914c58ec9bfe141ac4fc6f93c8c3fd, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: low_poly_grass_normal
-    second: {fileID: 2800000, guid: daf7e8e19201ef949b0e02164fabc36f, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: low_poly_grass_opacity
-    second: {fileID: 2800000, guid: 132454ce14763a741bc619a2041e1175, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: low_poly_grass_specular
-    second: {fileID: 2800000, guid: 06f154ff2bdebb74c99513a66c77306d, type: 3}
+      name: stone material
+    second: {fileID: 2100000, guid: cf59f8037331f7a4881fe9a6a85803ee, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -59,7 +39,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 7
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -85,15 +65,15 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 38
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
@@ -105,10 +85,10 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.07
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
