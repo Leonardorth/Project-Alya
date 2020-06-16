@@ -54,7 +54,7 @@ public class ObjectPushing : MonoBehaviour
             if (targetRigidbody != null)
             {
                 Vector3 direction = hit.transform.position - transform.position;
-                targetRigidbody.AddForceAtPosition(direction.normalized * force, hit.point);
+                targetRigidbody.AddForce(direction.normalized * force);
             }
 
         }

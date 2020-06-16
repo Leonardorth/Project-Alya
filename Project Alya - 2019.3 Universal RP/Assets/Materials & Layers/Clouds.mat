@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3990357275622174622
+--- !u!114 &-8303351006520251237
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: d435889d3528a694d8457a1f0dff9a99,
+  m_Name: Clouds
+  m_Shader: {fileID: -6465566751694194690, guid: f45c193a3ca965f478e25a81c60c4551,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -33,10 +33,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_546A2E93:
-        m_Texture: {fileID: 2800000, guid: abdd737f435124b4fbb9eff4fdffae2a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -66,28 +62,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_14603D41: 131.9
-    - Vector1_1EADDAD1: 3.5
-    - Vector1_21943C8E: -7.15
-    - Vector1_22CFAA20: 0.85
-    - Vector1_3C2DBD9: 1
-    - Vector1_53BD083F: 13.48
-    - Vector1_56C9D3EF: 0.03
-    - Vector1_5A4DE6F: 2.63
-    - Vector1_6037640D: 1
-    - Vector1_87FAF464: 3.73
-    - Vector1_8A7FD596: 5
-    - Vector1_8BDD0D0A: 4
-    - Vector1_9704A71E: 0.644
-    - Vector1_B4F85F08: 0.809
-    - Vector1_B7BBC63E: 0.05
-    - Vector1_B7F36BB0: 1
-    - Vector1_C8951C82: 0.78
-    - Vector1_D4B9833F: 2
-    - Vector1_EB7610B4: 0.8
-    - Vector1_F10694BB: 1
-    - Vector1_F8A2FF11: 0.01
-    - Vector1_FAC12F7B: 0.5
+    - Vector1_1E5EC10F: 2
+    - Vector1_2B3E5102: 0.01
+    - Vector1_436D4084: 2
+    - Vector1_474DA5B6: 1
+    - Vector1_4E0DAA8B: -1
+    - Vector1_5214AD6E: 2
+    - Vector1_586A8F97: 48.3
+    - Vector1_590504AB: 1
+    - Vector1_5C4D30CE: 8.58
+    - Vector1_645DDE06: 0.1
+    - Vector1_7EC7BC79: 5
+    - Vector1_B940BC97: 8
+    - Vector1_D8A456B6: 0.02
+    - Vector1_E3A69CD5: 4
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -110,12 +98,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_202E0E11: {r: 0.33187968, g: 0.6226415, b: 0.52359074, a: 1}
-    - Color_474FE8B: {r: 0.11414198, g: 0.8962264, b: 0.7365353, a: 0}
-    - Color_81D0CB03: {r: 0.23553754, g: 0.745283, b: 0.6078185, a: 0}
-    - Color_B493A18E: {r: 0.29169634, g: 0.5606579, b: 0.6509434, a: 0}
-    - Color_F09604D7: {r: 0.059807733, g: 0.43485776, b: 0.6037736, a: 0}
-    - Vector2_BED8837E: {r: -1, g: 0, b: 0, a: 0}
+    - Color_5DA83575: {r: 1, g: 1, b: 1, a: 0}
+    - Color_920C8B0: {r: 0.63923997, g: 0.7686765, b: 0.8018868, a: 0}
+    - Color_987C1373: {r: 0.4895425, g: 0.5377358, b: 0.5377358, a: 0}
+    - Vector4_306CF524: {r: 1, g: 0, b: 0, a: 90}
+    - Vector4_B9478CD0: {r: 0.05, g: 1, b: -0.3, a: 2.7}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
