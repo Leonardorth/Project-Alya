@@ -13,6 +13,7 @@ public class ElevatorMove : MonoBehaviour
     private Vector3 start;
     private Vector3 des;
     private float journeyLength;
+    public float elevatorDirection; //positive numbers for going up, negative for going down
 
     public AudioClip triggerSound;
     AudioSource audioSource;
@@ -21,7 +22,7 @@ public class ElevatorMove : MonoBehaviour
     void Start()
     {
         start = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-        des = new Vector3(transform.position.x, 35f, transform.position.z);
+        des = new Vector3(transform.position.x, elevatorDirection, transform.position.z);
         journeyLength = Vector3.Distance(start, des);
         audioSource = GetComponent<AudioSource>();
         

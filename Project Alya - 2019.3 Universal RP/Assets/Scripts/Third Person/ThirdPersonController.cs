@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ThirdPersonController : MonoBehaviour
 {
+    #region Movement
+    [Header("Movement")]
     public float walkSpeed = 3;
     public float runSpeed = 6;
     public float gravity = -12;
@@ -12,18 +14,19 @@ public class ThirdPersonController : MonoBehaviour
     [Range(0,1)]
     public float airControlPercent = 1; //if 1 then full control in air jumping
 
-    public float turnSmoothTime = 0.05f;
+    public float turnSmoothTime = 0.05f; //rotationSpeed
     float turnSmoothVelocity;
 
-    public float speedSmoothTime = 0.1f;
+    public float speedSmoothTime = 0.1f; //blend strength between states (idle, walk, run)
     float speedSmoothVelocty;
     float currentSpeed;
-    float velocityY;
+    float velocityY; //players height velocity
 
     Animator animator;
     Transform cameraT;
     CharacterController controller;
-    
+    #endregion
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -51,10 +54,13 @@ public class ThirdPersonController : MonoBehaviour
         // animator section
         float animationSpeedPercent = ((running) ? currentSpeed / runSpeed : currentSpeed / walkSpeed * 0.5f);
         animator.SetFloat("speedPercent", animationSpeedPercent, speedSmoothTime, Time.deltaTime);
-        
-        
 
-        
+        if (velocityY < -6 && controller.isGrounded == false)
+        {
+            animator.SetBool("isFalling", true);
+        }
+
+
     }
 
     void Move(Vector2 inputDir, bool running)
@@ -80,6 +86,7 @@ public class ThirdPersonController : MonoBehaviour
         {
             velocityY = 0.0f;
             animator.SetBool("isJumping", false);
+            animator.SetBool("isFalling", false);
         }
         
     }

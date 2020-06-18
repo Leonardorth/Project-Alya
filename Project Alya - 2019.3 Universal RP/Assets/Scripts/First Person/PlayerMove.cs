@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour
 
     [SerializeField] private AnimationCurve jumpFallOff;
     [SerializeField] private float jumpMultiplier;
-    [SerializeField] private KeyCode jumpKey;
+    [SerializeField] private readonly KeyCode jumpKey;
 
 
     private bool isJumping;
